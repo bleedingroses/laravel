@@ -1,0 +1,13 @@
+body {
+    background-color: bisque;
+    /* Change color of pagination links */
+.pagination a {
+    color: red; /* Change to your desired color */
+}
+
+/* Change color of active pagination link */
+.pagination .active a {
+    color: pink; /* Change to your desired color */
+}
+
+}
