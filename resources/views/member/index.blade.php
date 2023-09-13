@@ -38,7 +38,7 @@
                 <td>
                     <img src="{{ asset('img/'.$member->gambar) }}" width="75" alt="">
                 </td>
-                <td><a href="/category/{{ $member->category_id }}/profile">{{ $member->category->name }}</a></td>
+                <td><a href="/category/{{ $member->category_id }}/profile">{{ $member->divisi }}</a></td>
                 <td>{{$member['nama']}}</td>
                 <td>{{$member['email']}}</td>
                 <td>{{$member['jurusan']}}</td>
