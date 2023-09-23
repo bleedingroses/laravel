@@ -22,6 +22,12 @@
             <a class="nav-link px-3 {{ ($title === "Manager") ? 'active' : '' }}" href="/member/manager">Manager</a>
           </li>
         </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="/login" class="nav-link {{ ($title === "login") ? 'active' : '' }}"><i class="bi bi-box-arrow-in-right"></i>
+              Login</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
